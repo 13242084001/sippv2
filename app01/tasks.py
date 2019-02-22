@@ -53,7 +53,7 @@ def setCallDecreaseOrIncrease(num, port):
         "sudo echo 'cset rate %s'> /dev/udp/127.0.0.1/%s" % (num, port))
 
 
-# 获取系统状态，写进数据库
+# 获取系统状态，写进数据库;此方法被优化掉了
 # @shared_task
 def setSysInfo():
     rx_recv_before, tx_send_before = psutil.net_io_counters(pernic=True)["lo0"][:2]
@@ -68,8 +68,8 @@ def setSysInfo():
     currCpu = getCurrCpu()
     currMem = getCurrMem()
     currDisk = getDisk()
-    curr_rx = (rx_recv_after - rx_recv_before)  # 最少是1024
-    curr_tx = (tx_send_after - tx_send_before)
+    curr_rx = (rx_recv_after - rx_recv_before)/1024  # 最少是1024
+    curr_tx = (tx_send_after - tx_send_before)/1024
     """
     cpu_last = data.get('currCpu')
     mem_last = data.get('currMem')
@@ -359,9 +359,9 @@ def updateTaskStatInfo():
     currCpu = getCurrCpu()
     currMem = getCurrMem()
     currDisk = getDisk()
-    curr_rx = (rx_recv_after - rx_recv_before)  # 最少是1024
-    curr_tx = (tx_send_after - tx_send_before)
-    sysTime = str(datetime.datetime.now() + datetime.timedelta(hours=8)).split(".")[0]
+    curr_rx = (rx_recv_after - rx_recv_before)/1024  # 最少是1024
+    curr_tx = (tx_send_after - tx_send_before)/1024
+    sysTime = str(datetime.datetime.now() + datetime.timedelta(hours=8)).split(".")[0].replace("-", "/")
     port_list = init()
     app01.models.tbl_sys.objects.update_or_create(currCpu=currCpu,
                                                   currMem=currMem,
