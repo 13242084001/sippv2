@@ -1,7 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51e9b837-ce1c-4d18-9d0c-24fd5a28c8c8" name="Default Changelist" comment="" />
+    <list default="true" id="51e9b837-ce1c-4d18-9d0c-24fd5a28c8c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/042c8fb4-b86b-4b97-8f42-b524ebd56993.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/eb1bb9ff-365a-4203-ac23-e98c550ee4ae.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/eb1bb9ff-365a-4203-ac23-e98c550ee4ae/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sippv2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/Mymiddleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0002_tbl_sys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0003_auto_20181220_1232.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0004_auto_20181220_1235.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0005_auto_20181220_1451.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0006_auto_20181220_1452.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0007_auto_20181221_0212.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0008_auto_20181221_0800.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0009_auto_20181222_0258.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0010_remove_resource_filename.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0011_auto_20190102_0349.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0012_auto_20190108_0307.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0013_tbl_sys_currentconnum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0014_auto_20190108_0415.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0015_auto_20190108_0502.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0016_tbl_sipcfg_isrunning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0017_auto_20190108_1033.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0018_auto_20190108_1037.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0019_auto_20190108_1226.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0020_tbl_task_endtime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0021_tbl_task_taskstatus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0022_tbl_task_timeoptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0023_auto_20190111_1507.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0024_auto_20190112_0808.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0025_tbl_stat_responsetime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0026_auto_20190113_0657.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0027_tbl_stat_cpurate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0028_tbl_sys_currentcps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0029_tbl_task_qflag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0030_auto_20190115_0356.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0031_auto_20190115_0414.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0032_auto_20190115_0615.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0033_auto_20190115_1302.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/0034_auto_20190115_1310.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/serialize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sippv2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sippv2/celery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sippv2/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sippv2/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sippv2/wsgi.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
