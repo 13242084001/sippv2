@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51e9b837-ce1c-4d18-9d0c-24fd5a28c8c8" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/sippv2$views.coverage" NAME="views Coverage Results" MODIFIED="1547537273498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app01" />
+    <SUITE FILE_PATH="coverage/sippv2$serialize.coverage" NAME="serialize Coverage Results" MODIFIED="1546406750408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app01" />
+    <SUITE FILE_PATH="coverage/sippv2$utils.coverage" NAME="utils Coverage Results" MODIFIED="1547027556994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app01" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sippv2@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sippv2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sippv2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sippv2: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1741315694">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="app01_resource" value="2" />
+          <entry key="app01_tbl_sipcfg" value="38" />
+          <entry key="app01_tbl_stat" value="12" />
+          <entry key="app01_tbl_sys" value="45" />
+          <entry key="app01_tbl_task" value="50" />
+          <entry key="app01_token" value="10" />
+          <entry key="app01_user" value="16" />
+          <entry key="auth_group" value="1" />
+          <entry key="auth_user" value="1" />
+          <entry key="celery_taskmeta" value="1" />
+          <entry key="celery_tasksetmeta" value="1" />
+          <entry key="celerybeat-schedule" value="1" />
+          <entry key="css" value="2" />
+          <entry key="djcelery_crontabschedule" value="3" />
+          <entry key="djcelery_intervalschedule" value="4" />
+          <entry key="djcelery_periodictask" value="3" />
+          <entry key="djcelery_periodictasks" value="3" />
+          <entry key="djcelery_taskstate" value="2" />
+          <entry key="djcelery_workerstate" value="1" />
+          <entry key="djkombu_message" value="1" />
+          <entry key="ini" value="3" />
+          <entry key="js" value="5" />
+          <entry key="py" value="66" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="Database Element" value="195" />
+          <entry key="Ini" value="3" />
+          <entry key="JavaScript" value="5" />
+          <entry key="Python" value="66" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Django Console" value="3507" />
+          <entry key="cell" value="278" />
+          <entry key="dummy" value="16" />
+          <entry key="ini" value="187" />
+          <entry key="py" value="35763" />
+          <entry key="txt" value="6" />
+          <entry key="xml" value="85" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ini" value="187" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Python" value="39270" />
+          <entry key="Scratch" value="278" />
+          <entry key="XML" value="85" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sippv2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sippv2/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-442">
+              <caret line="93" column="1" lean-forward="true" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app01/tasks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5355">
+              <caret line="365" column="66" selection-start-line="365" selection-start-column="66" selection-end-line="365" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1548938627822" expanded="true" signature="206:333" ph="..." />
+                <marker date="1548938627822" expanded="true" signature="356:357" ph="..." />
+                <marker date="1548938627822" expanded="true" signature="356:361" ph="..." />
+                <marker date="1548938627822" expanded="true" signature="356:392" ph="..." />
+                <marker date="1548938627822" expanded="true" signature="579:580" ph="..." />
+                <marker date="1548938627822" expanded="true" signature="703:776" ph="..." />
+                <marker date="1548938627822" expanded="true" signature="1051:1260" ph="..." />
+                <marker date="1548938627822" expanded="false" signature="2696:2701" ph="..." />
+                <marker date="1548938627822" expanded="true" signature="7115:7116" ph="..." />
+                <marker date="1548938627822" expanded="true" signature="7115:7120" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app01/serialize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1770">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
+              <folding>
+                <element signature="e#40#67#0" expanded="true" />
+                <marker date="1548938480608" expanded="true" signature="130:131" ph="..." />
+                <marker date="1548938480608" expanded="true" signature="237:238" ph="..." />
+                <marker date="1548938480608" expanded="true" signature="1429:1527" ph="..." />
+                <marker date="1548938480608" expanded="true" signature="1934:1935" ph="..." />
+                <marker date="1548938480608" expanded="true" signature="2836:2841" ph="..." />
+                <marker date="1548938480608" expanded="true" signature="3330:3942" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sippv2/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+              <folding>
+                <element signature="e#630#662#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app01/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9180">
+              <caret line="624" column="80" selection-start-line="624" selection-start-column="80" selection-end-line="624" selection-end-column="80" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+                <marker date="1548948272294" expanded="true" signature="530:531" ph="..." />
+                <marker date="1548948272294" expanded="true" signature="579:1954" ph="..." />
+                <marker date="1548948272294" expanded="true" signature="1607:1954" ph="..." />
+                <marker date="1548948272294" expanded="true" signature="1975:1980" ph="..." />
+                <marker date="1548948272294" expanded="true" signature="2020:2056" ph="..." />
+                <marker date="1548948272294" expanded="true" signature="3161:3166" ph="..." />
+                <marker date="1548948272294" expanded="true" signature="4311:4316" ph="..." />
+                <marker date="1548948272294" expanded="true" signature="4342:4351" ph="..." />
+                <marker date="1548948272294" expanded="true" signature="5441:5814" ph="..." />
+                <marker date="1548948272294" expanded="true" signature="26144:27213" ph="..." />
+                <marker date="1548948272294" expanded="true" signature="27235:27244" ph="..." />
+                <marker date="1548948272294" expanded="true" signature="27941:28102" ph="..." />
+                <marker date="1548948272294" expanded="true" signature="28133:28142" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app01/Mymiddleware.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app01/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1875">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
+              <folding>
+                <marker date="1548333957244" expanded="true" signature="84:89" ph="..." />
+                <marker date="1548333957244" expanded="true" signature="270:274" ph="..." />
+                <marker date="1548333957244" expanded="true" signature="323:328" ph="..." />
+                <marker date="1548333957244" expanded="true" signature="563:568" ph="..." />
+                <marker date="1548333957244" expanded="true" signature="2634:3061" ph="..." />
+                <marker date="1548333957244" expanded="true" signature="3168:3173" ph="..." />
+                <marker date="1548333957244" expanded="true" signature="5557:6231" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lam</find>
+      <find>tbl_sipcfg</find>
+      <find>newT</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app01/migrations/Mymiddleware.py" />
+        <option value="$PROJECT_DIR$/app01/utils.py" />
+        <option value="$PROJECT_DIR$/lib/python3.6/site-packages/kombu/transport/django/models.py" />
+        <option value="$PROJECT_DIR$/lib/python3.6/site-packages/djkombu/models.py" />
+        <option value="$PROJECT_DIR$/lib/python3.6/site-packages/kombu/transport/django/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/config.ini" />
+        <option value="$PROJECT_DIR$/app01/__init__.py" />
+        <option value="$PROJECT_DIR$/Script/admin/uac.xml" />
+        <option value="$PROJECT_DIR$/sippv2/celery.py" />
+        <option value="$PROJECT_DIR$/app01/models.py" />
+        <option value="$PROJECT_DIR$/sippv2/urls.py" />
+        <option value="$PROJECT_DIR$/sippv2/settings.py" />
+        <option value="$PROJECT_DIR$/app01/serialize.py" />
+        <option value="$PROJECT_DIR$/app01/tasks.py" />
+        <option value="$PROJECT_DIR$/app01/views.py" />
+        <option value="$PROJECT_DIR$/app01/Mymiddleware.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-14" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="804" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sippv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sippv2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sippv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sippv2" type="462c0819:PsiDirectoryNode" />
+              <item name="app01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sippv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sippv2" type="462c0819:PsiDirectoryNode" />
+              <item name="sippv2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sippv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sippv2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sippv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sippv2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app01" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/templates/dist" />
+      <recent name="$PROJECT_DIR$/Script" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.sippv2">
+    <configuration name="serialize" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sippv2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app01/serialize.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sippv2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app01/tasks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sippv2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app01/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sippv2" type="Python.DjangoServer" factoryName="Django server">
+      <module name="sippv2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="sippv2.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8088" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.sippv2" />
+      <item itemvalue="Python.utils" />
+      <item itemvalue="Python.views" />
+      <item itemvalue="Python.serialize" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.utils" />
+        <item itemvalue="Python.serialize" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51e9b837-ce1c-4d18-9d0c-24fd5a28c8c8" name="Default Changelist" comment="" />
+      <created>1545049055743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545049055743</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-14" y="23" width="1440" height="804" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6509901" visible="true" weight="0.19957082" />
+      <window_info id="Structure" order="1" sideWeight="0.3490099" side_tool="true" weight="0.116595134" />
+      <window_info id="Favorites" order="2" sideWeight="0.19130434" side_tool="true" weight="0.12088698" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32855093" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6671348" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3974719" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286517" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32744783" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32744783" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5070225" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3511236" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.07081545" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6509901" visible="true" weight="0.39914164" />
+      <window_info id="Structure" order="1" sideWeight="0.3490099" side_tool="true" weight="0.116595134" />
+      <window_info id="Favorites" order="2" sideWeight="0.19130434" side_tool="true" weight="0.12088698" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32855093" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28370786" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3974719" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905295" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32744783" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32744783" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.23842196" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3516295" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="4" weight="0.22317597" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://eb1bb9ff-365a-4203-ac23-e98c550ee4ae/schema/main/table/djcelery_intervalschedule" />
+    <entry file="das://eb1bb9ff-365a-4203-ac23-e98c550ee4ae/schema/main/table/djcelery_periodictask" />
+    <entry file="das://eb1bb9ff-365a-4203-ac23-e98c550ee4ae/schema/main/table/djkombu_message" />
+    <entry file="das://eb1bb9ff-365a-4203-ac23-e98c550ee4ae/schema/main/table/djcelery_workerstate" />
+    <entry file="das://eb1bb9ff-365a-4203-ac23-e98c550ee4ae/schema/main/table/djcelery_periodictasks" />
+    <entry file="das://eb1bb9ff-365a-4203-ac23-e98c550ee4ae/schema/main/table/djcelery_crontabschedule" />
+    <entry file="das://eb1bb9ff-365a-4203-ac23-e98c550ee4ae/schema/main/table/app01_tbl_task" />
+    <entry file="file://$PROJECT_DIR$/app01/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://eb1bb9ff-365a-4203-ac23-e98c550ee4ae/schema/main/table/app01_tbl_sys" />
+    <entry file="das://eb1bb9ff-365a-4203-ac23-e98c550ee4ae/schema/main/table/app01_user" />
+    <entry file="das://042c8fb4-b86b-4b97-8f42-b524ebd56993/schema/sippv2/table/app01_user" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/042c8fb4-b86b-4b97-8f42-b524ebd56993/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/psutil/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="336" column="8" selection-start-line="336" selection-start-column="8" selection-end-line="336" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://042c8fb4-b86b-4b97-8f42-b524ebd56993/schema/sippv2/table/app01_token" />
+    <entry file="file://$PROJECT_DIR$/Script/admin/uac.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="587" column="8" selection-start-line="587" selection-start-column="8" selection-end-line="587" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://042c8fb4-b86b-4b97-8f42-b524ebd56993/schema/sippv2/table/djcelery_crontabschedule" />
+    <entry file="das://042c8fb4-b86b-4b97-8f42-b524ebd56993/schema/sippv2/table/celery_tasksetmeta" />
+    <entry file="das://042c8fb4-b86b-4b97-8f42-b524ebd56993/schema/sippv2/table/celery_taskmeta" />
+    <entry file="das://042c8fb4-b86b-4b97-8f42-b524ebd56993/schema/sippv2/table/djcelery_periodictasks" />
+    <entry file="das://042c8fb4-b86b-4b97-8f42-b524ebd56993/schema/sippv2/table/djcelery_taskstate" />
+    <entry file="das://042c8fb4-b86b-4b97-8f42-b524ebd56993/schema/sippv2/table/djcelery_periodictask" />
+    <entry file="das://042c8fb4-b86b-4b97-8f42-b524ebd56993/schema/sippv2/table/djcelery_intervalschedule" />
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/2000563894/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="5348" column="8" selection-start-line="5348" selection-start-column="8" selection-end-line="5348" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/django/db/models/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="371" column="8" selection-start-line="371" selection-start-column="8" selection-end-line="371" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sippv2/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/iview.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://042c8fb4-b86b-4b97-8f42-b524ebd56993/schema/sippv2/table/app01_tbl_stat" />
+    <entry file="das://042c8fb4-b86b-4b97-8f42-b524ebd56993/schema/sippv2/table/app01_tbl_sipcfg" />
+    <entry file="das://042c8fb4-b86b-4b97-8f42-b524ebd56993/schema/sippv2/table/app01_tbl_sys" />
+    <entry file="das://042c8fb4-b86b-4b97-8f42-b524ebd56993/schema/sippv2/table/app01_tbl_task" />
+    <entry file="file://$PROJECT_DIR$/templates/dist/static/js/app.183e31ef002c09149a06.js" />
+    <entry file="file://$PROJECT_DIR$/templates/dist/dist/static/js/app.4cd30df696cf4c70b328.js" />
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/django/core/checks/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dist/static/js/app.4cd30df696cf4c70b328.js" />
+    <entry file="file://$PROJECT_DIR$/templates/dist/static/css/app.88d92041e2e7b37c551519701fad46db.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/django/utils/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="81" column="6" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/corsheaders/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dist/static/js/app.f4b1dd6a3783e917ba42.js" />
+    <entry file="file://$PROJECT_DIR$/templates/dist/static/js/app.6e0a7a31df4f28576918.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5355">
+          <caret line="365" column="66" selection-start-line="365" selection-start-column="66" selection-end-line="365" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1548938627822" expanded="true" signature="206:333" ph="..." />
+            <marker date="1548938627822" expanded="true" signature="356:357" ph="..." />
+            <marker date="1548938627822" expanded="true" signature="356:361" ph="..." />
+            <marker date="1548938627822" expanded="true" signature="356:392" ph="..." />
+            <marker date="1548938627822" expanded="true" signature="579:580" ph="..." />
+            <marker date="1548938627822" expanded="true" signature="703:776" ph="..." />
+            <marker date="1548938627822" expanded="true" signature="1051:1260" ph="..." />
+            <marker date="1548938627822" expanded="false" signature="2696:2701" ph="..." />
+            <marker date="1548938627822" expanded="true" signature="7115:7116" ph="..." />
+            <marker date="1548938627822" expanded="true" signature="7115:7120" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/serialize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+          <folding>
+            <element signature="e#40#67#0" expanded="true" />
+            <marker date="1548938480608" expanded="true" signature="130:131" ph="..." />
+            <marker date="1548938480608" expanded="true" signature="237:238" ph="..." />
+            <marker date="1548938480608" expanded="true" signature="1429:1527" ph="..." />
+            <marker date="1548938480608" expanded="true" signature="1934:1935" ph="..." />
+            <marker date="1548938480608" expanded="true" signature="2836:2841" ph="..." />
+            <marker date="1548938480608" expanded="true" signature="3330:3942" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sippv2/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9180">
+          <caret line="624" column="80" selection-start-line="624" selection-start-column="80" selection-end-line="624" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+            <marker date="1548948272294" expanded="true" signature="530:531" ph="..." />
+            <marker date="1548948272294" expanded="true" signature="579:1954" ph="..." />
+            <marker date="1548948272294" expanded="true" signature="1607:1954" ph="..." />
+            <marker date="1548948272294" expanded="true" signature="1975:1980" ph="..." />
+            <marker date="1548948272294" expanded="true" signature="2020:2056" ph="..." />
+            <marker date="1548948272294" expanded="true" signature="3161:3166" ph="..." />
+            <marker date="1548948272294" expanded="true" signature="4311:4316" ph="..." />
+            <marker date="1548948272294" expanded="true" signature="4342:4351" ph="..." />
+            <marker date="1548948272294" expanded="true" signature="5441:5814" ph="..." />
+            <marker date="1548948272294" expanded="true" signature="26144:27213" ph="..." />
+            <marker date="1548948272294" expanded="true" signature="27235:27244" ph="..." />
+            <marker date="1548948272294" expanded="true" signature="27941:28102" ph="..." />
+            <marker date="1548948272294" expanded="true" signature="28133:28142" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+          <folding>
+            <marker date="1548333957244" expanded="true" signature="84:89" ph="..." />
+            <marker date="1548333957244" expanded="true" signature="270:274" ph="..." />
+            <marker date="1548333957244" expanded="true" signature="323:328" ph="..." />
+            <marker date="1548333957244" expanded="true" signature="563:568" ph="..." />
+            <marker date="1548333957244" expanded="true" signature="2634:3061" ph="..." />
+            <marker date="1548333957244" expanded="true" signature="3168:3173" ph="..." />
+            <marker date="1548333957244" expanded="true" signature="5557:6231" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/Mymiddleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sippv2/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="93" column="1" lean-forward="true" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

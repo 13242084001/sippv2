@@ -1,0 +1,11 @@
+/Script/*
+/Task/*
+celerybeat-schedule.db
+db.sqlite3
+/lib/
+pip-selfcheck.json
+/bin/
+/include/
+pyvenv.cfg
+/share/
+/templates/dist/
