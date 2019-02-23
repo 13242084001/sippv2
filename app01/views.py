@@ -528,7 +528,7 @@ class TaskStatus(APIView):
         print(request.data)
         print(request.data.get('increaseTime'))
         taskName = request.data.get('taskName')
-        user = User.objects.filter(username="admin").first()
+        user = User.objects.filter(username=request.username).first()
         if tbl_task.objects.filter(user=user).filter(taskName=taskName).first():
             return Response({'code': 10001, 'error': '任务已存在'})
         localPort, remoteSock = request.data.get('callRoute').split('<==>')
@@ -599,18 +599,18 @@ class TaskStatus(APIView):
         stdOut = subprocess.getstatusoutput("sudo lsof -i udp -P|grep -w %s|tail -n 1|awk -F':' '{print $NF}'" % pid)  # 这一句要优化，太慢
         if stdOut[0] == 0:
             print(stdOut)
-            for i in stdOut[1]:     # 从命令行的输出获取远程控制端口
-                if int(i) >= 8888:
-                    localControlPort = int(i)
-                    print('Local_control_port', localControlPort)
-                    print(type(taskId), type(user), type(pid), type(localControlPort))
-                    tbl_task.objects.create(taskId=taskId, user=user, pid=pid, localControlPort=localControlPort,
-                                            startTime=startTime, taskStatus=1, timeOptions=timeOptions, **request.data)
-                    # 更新sip配置表的状态字段为正在使用
-                    tbl_sipcfg.objects.filter(user=user, localPort=localPort).update(isRunning=True)
-                    tbl_sys.objects.filter(pk=1).update(currentConNum=currentConNum+request.data.get('beginConcurrentNum'))
-                    ret = {'code': 10000, 'data': request.data, 'error': None}
-                    return Response(ret)
+            if int(stdOut[1]) >= 8888:
+                localControlPort = stdOut[1]
+                print('Local_control_port', localControlPort)
+                print(type(taskId), type(user), type(pid), type(localControlPort))
+                tbl_task.objects.create(taskId=taskId, user=user, pid=pid, localControlPort=localControlPort,
+                                        startTime=startTime, taskStatus=1, timeOptions=timeOptions, **request.data)
+                # 更新sip配置表的状态字段为正在使用
+                tbl_sipcfg.objects.filter(user=user, localPort=localPort).update(isRunning=True)
+                tbl_sys.objects.filter(pk=1).update(
+                    currentConNum=currentConNum + request.data.get('beginConcurrentNum'))
+                ret = {'code': 10000, 'data': request.data, 'error': None}
+                return Response(ret)
         else:
             print(stdOut)
             subprocess.getstatusoutput('kill -9 %s' % pid)
@@ -660,9 +660,9 @@ class TaskStatus(APIView):
         else:
             return Response({'code': 10002, 'error': "操作失败"})
 
-    def getTaskList(self):
-        #   username = request.username
-        user = User.objects.filter(username='admin').first()
+    def getTaskList(self, request):
+        username = request.username
+        user = User.objects.filter(username=username).first()
         taskObj = list(tbl_task.objects.filter(user=user).all().values('id', 'taskStatus', 'taskName', 'taskId'))
         taskObj.reverse()
         data = {}
@@ -680,7 +680,8 @@ class TaskStatus(APIView):
         return count
 
     def getTaskInfo(self, request):
-        user = User.objects.filter(username='admin').first()
+        username = request.username
+        user = User.objects.filter(username=username).first()
         try:
             if request.data.get('id'):
                 taskInfoObj = tbl_task.objects.filter(id=request.data.get('id')).values()[0]

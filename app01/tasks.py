@@ -203,7 +203,7 @@ def updateTaskStatInfo():
                                    "%s_%s_screen.log" % (item['xmlScript'][:-4], item['pid'] - 1)), "r") as f:
                 # 将文件读取指针移动到相对与文件末尾(2), 0个字节
                 msg = f.readlines()[-68:]
-            #   print("这是消息日志", msg)
+            print("这是消息日志", msg)
             TimeStatPosition = msg.index(
                 "----------------------------- Statistics Screen ------- [1-9]: Change Screen --\n")
             # 消息日志界面开始位置
