@@ -49,7 +49,7 @@ class LoginSerialize(serializers.Serializer):
         "blank": "用户名不能为空",
         "max_length": "最大长度为16位",
     })
-    password = serializers.CharField(max_length=16, required=True, allow_blank=False, error_messages={
+    password = serializers.CharField(max_length=32, required=True, allow_blank=False, error_messages={
         "max_length": "最大长度为16位",
         "blank": "密码不能为空",
     })
