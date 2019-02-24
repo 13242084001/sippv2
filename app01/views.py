@@ -181,6 +181,8 @@ class SippScript(APIView):
             return self.newDir(request)
         if kwargs.get('slug', '') == "upload":
             return self.upload(request)
+        if kwargs.get('slug', '') == "download":
+            return self.download(request)
         if kwargs.get('slug', '') == "getPathTree":
             return self.getPathTree(request)
         if kwargs.get("slug", '') == "ScriptInfo":
@@ -219,7 +221,8 @@ class SippScript(APIView):
         """请求体需要文件以及 目标文件目录"""
         print("dddd")
         # 测试，curl localhost:8088/upload/ -F "file=@/Users/a/PycharmProjects/sippv2/aaa.py" -F 'data={"dstpath": "/Users/a/PycharmProjects/sippv2/Script/doris"}'
-        dstpath = json.loads(request.POST.get('data'))['dstpath']
+        #dstpath = json.loads(request.POST.get('data'))['dstpath']
+        dstpath = request.POST.get('dstpath')
         print(dstpath)
         file_obj = request.FILES.get("file")
         try:
@@ -245,12 +248,20 @@ class SippScript(APIView):
     # 下载文件接口
     def download(self, request):
         dirPath = request.data.get('dirPath')
+        print(8888)
         fileName = request.data.get('fileName')
-        fileName = "./Script/{}".format("/".join(dirPath) + "/" + fileName)
-        response = StreamingHttpResponse(self.read_file(fileName))
+        print(999)
+        filePath = dirPath + "/" + fileName
+        print(000)
+        response = StreamingHttpResponse(self.read_file(filePath))
+        print(response)
         response['Content-Type'] = 'application/octet-stream'
+        print(111)
         response['Content-Disposition'] = 'attachment;filename="{0}"'.format(fileName)
-        return Response({"code": 10000, "data": response, "error": None})
+        response['Access-Control-Expose-Headers'] = "Content-Disposition"
+        print(222)
+        print(response)
+        return response
 
     # 获取目录树，返回json格式，前后端都用递归处理；这里资源写数据库很难处理，所以不存库
     def getPathTree(self, request):
