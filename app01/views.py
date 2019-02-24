@@ -191,6 +191,8 @@ class SippScript(APIView):
             return self.DeleteScript(request)
         if kwargs.get('slug', '') == "DeleteDir":
             return self.DeleteDir(request)
+        if kwargs.get('slug', '') == 'viewScript':
+            return self.viewScript(request)
 
     # 新建文件夹
     def newDir(self, request):
@@ -262,6 +264,18 @@ class SippScript(APIView):
         print(222)
         print(response)
         return response
+
+    def viewScript(self, request):
+        dirPath = request.data.get('dirPath')
+        print(8888)
+        fileName = request.data.get('fileName')
+        print(999)
+        filePath = dirPath + "/" + fileName
+        print(000)
+        with open(filePath, 'rb') as f:
+            str = f.read()
+            print(str)
+        return Response({"code": 10000, "data": str, 'error': None})
 
     # 获取目录树，返回json格式，前后端都用递归处理；这里资源写数据库很难处理，所以不存库
     def getPathTree(self, request):

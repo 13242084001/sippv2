@@ -114,7 +114,7 @@
           <entry key="cell" value="281" />
           <entry key="dummy" value="16" />
           <entry key="ini" value="200" />
-          <entry key="py" value="36065" />
+          <entry key="py" value="36253" />
           <entry key="txt" value="6" />
           <entry key="xml" value="85" />
         </counts>
@@ -123,7 +123,7 @@
         <counts>
           <entry key="Ini" value="200" />
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="39675" />
+          <entry key="Python" value="39863" />
           <entry key="Scratch" value="281" />
           <entry key="XML" value="85" />
         </counts>
@@ -187,23 +187,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app01/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="256" column="23" lean-forward="true" selection-start-line="256" selection-start-column="23" selection-end-line="256" selection-end-column="23" />
+            <state relative-caret-position="149">
+              <caret line="277" column="66" selection-start-line="277" selection-start-column="66" selection-end-line="277" selection-end-column="66" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
-                <marker date="1550991411944" expanded="true" signature="530:531" ph="..." />
-                <marker date="1550991411944" expanded="true" signature="579:1954" ph="..." />
-                <marker date="1550991411944" expanded="true" signature="1607:1954" ph="..." />
-                <marker date="1550991411944" expanded="true" signature="1975:1980" ph="..." />
-                <marker date="1550991411944" expanded="true" signature="2020:2056" ph="..." />
-                <marker date="1550991411944" expanded="true" signature="3161:3166" ph="..." />
-                <marker date="1550991411944" expanded="true" signature="4311:4316" ph="..." />
-                <marker date="1550991411944" expanded="true" signature="4342:4351" ph="..." />
-                <marker date="1550991411944" expanded="true" signature="5441:5814" ph="..." />
-                <marker date="1550991411944" expanded="true" signature="26363:27432" ph="..." />
-                <marker date="1550991411944" expanded="true" signature="27463:27472" ph="..." />
-                <marker date="1550991411944" expanded="true" signature="28166:28327" ph="..." />
-                <marker date="1550991411944" expanded="true" signature="28394:28403" ph="..." />
+                <marker date="1551010815598" expanded="true" signature="530:531" ph="..." />
+                <marker date="1551010815598" expanded="true" signature="579:1954" ph="..." />
+                <marker date="1551010815598" expanded="true" signature="1607:1954" ph="..." />
+                <marker date="1551010815598" expanded="true" signature="1975:1980" ph="..." />
+                <marker date="1551010815598" expanded="true" signature="2020:2056" ph="..." />
+                <marker date="1551010815598" expanded="true" signature="3161:3166" ph="..." />
+                <marker date="1551010815598" expanded="true" signature="4311:4316" ph="..." />
+                <marker date="1551010815598" expanded="true" signature="4342:4351" ph="..." />
+                <marker date="1551010815598" expanded="true" signature="5441:5814" ph="..." />
+                <marker date="1551010815598" expanded="true" signature="9829:10190" ph="..." />
+                <marker date="1551010815598" expanded="true" signature="26849:27918" ph="..." />
+                <marker date="1551010815598" expanded="true" signature="27949:27958" ph="..." />
+                <marker date="1551010815598" expanded="true" signature="28652:28813" ph="..." />
+                <marker date="1551010815598" expanded="true" signature="28880:28889" ph="..." />
               </folding>
             </state>
           </provider>
@@ -288,8 +289,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="461" />
-    <option name="y" value="125" />
+    <option name="x" value="413" />
+    <option name="y" value="187" />
     <option name="width" value="1401" />
     <option name="height" value="804" />
   </component>
@@ -482,7 +483,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="461" y="125" width="1401" height="804" extended-state="0" />
+    <frame x="413" y="187" width="1401" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6509901" visible="true" weight="0.18469463" />
@@ -490,7 +491,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.19130434" side_tool="true" weight="0.12088698" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32855093" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2963483" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2724719" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3974719" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -499,7 +500,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32744783" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2261236" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3974719" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3511236" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -762,23 +763,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app01/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="256" column="23" lean-forward="true" selection-start-line="256" selection-start-column="23" selection-end-line="256" selection-end-column="23" />
+        <state relative-caret-position="149">
+          <caret line="277" column="66" selection-start-line="277" selection-start-column="66" selection-end-line="277" selection-end-column="66" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
-            <marker date="1550991411944" expanded="true" signature="530:531" ph="..." />
-            <marker date="1550991411944" expanded="true" signature="579:1954" ph="..." />
-            <marker date="1550991411944" expanded="true" signature="1607:1954" ph="..." />
-            <marker date="1550991411944" expanded="true" signature="1975:1980" ph="..." />
-            <marker date="1550991411944" expanded="true" signature="2020:2056" ph="..." />
-            <marker date="1550991411944" expanded="true" signature="3161:3166" ph="..." />
-            <marker date="1550991411944" expanded="true" signature="4311:4316" ph="..." />
-            <marker date="1550991411944" expanded="true" signature="4342:4351" ph="..." />
-            <marker date="1550991411944" expanded="true" signature="5441:5814" ph="..." />
-            <marker date="1550991411944" expanded="true" signature="26363:27432" ph="..." />
-            <marker date="1550991411944" expanded="true" signature="27463:27472" ph="..." />
-            <marker date="1550991411944" expanded="true" signature="28166:28327" ph="..." />
-            <marker date="1550991411944" expanded="true" signature="28394:28403" ph="..." />
+            <marker date="1551010815598" expanded="true" signature="530:531" ph="..." />
+            <marker date="1551010815598" expanded="true" signature="579:1954" ph="..." />
+            <marker date="1551010815598" expanded="true" signature="1607:1954" ph="..." />
+            <marker date="1551010815598" expanded="true" signature="1975:1980" ph="..." />
+            <marker date="1551010815598" expanded="true" signature="2020:2056" ph="..." />
+            <marker date="1551010815598" expanded="true" signature="3161:3166" ph="..." />
+            <marker date="1551010815598" expanded="true" signature="4311:4316" ph="..." />
+            <marker date="1551010815598" expanded="true" signature="4342:4351" ph="..." />
+            <marker date="1551010815598" expanded="true" signature="5441:5814" ph="..." />
+            <marker date="1551010815598" expanded="true" signature="9829:10190" ph="..." />
+            <marker date="1551010815598" expanded="true" signature="26849:27918" ph="..." />
+            <marker date="1551010815598" expanded="true" signature="27949:27958" ph="..." />
+            <marker date="1551010815598" expanded="true" signature="28652:28813" ph="..." />
+            <marker date="1551010815598" expanded="true" signature="28880:28889" ph="..." />
           </folding>
         </state>
       </provider>
