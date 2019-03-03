@@ -101,7 +101,7 @@ class tbl_stat(models.Model):
     callRate = models.FloatField(null=False, default=0, verbose_name="当前任务cps")
     countTime = models.CharField(max_length=19, null=True, verbose_name="数据生成时间")
 
-
+# 此表废弃
 class files(models.Model):
     choices = (
         (0, "xml"),
@@ -112,7 +112,7 @@ class files(models.Model):
     filesize = models.CharField(max_length=8, verbose_name='文件大小')
     filetype = models.IntegerField(choices=choices, verbose_name="文件类型")
 
-
+# 此表废弃
 class resource(models.Model):
     user = models.ForeignKey('user', null=False, on_delete=models.CASCADE, verbose_name="关联用户id")
     pathname = models.CharField(max_length=32, null=True, verbose_name="路径名")

@@ -1,6 +1,5 @@
 from django.shortcuts import render, HttpResponse
 from django.http import JsonResponse, StreamingHttpResponse
-from django.views import View
 from .models import User, Token, tbl_sys, tbl_sipcfg, tbl_task, tbl_stat
 import uuid
 import json
@@ -8,7 +7,6 @@ import os, subprocess, shutil, time, datetime
 from rest_framework import serializers
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from .tasks import getSystemVersion
 from app01 import serialize
 from django.db.models import F
 
@@ -20,7 +18,7 @@ class RegisterSerialize(serializers.Serializer):
         "max_length": "最大长度为16位",
         "required": "用户名不能为空",
     })
-    password = serializers.CharField(max_length=16, required=True, allow_blank=False, error_messages={
+    password = serializers.CharField(max_length=32, required=True, allow_blank=False, error_messages={
         "max_length": "最大长度为16位",
         "blank": "密码不能为空",
     })
@@ -250,18 +248,12 @@ class SippScript(APIView):
     # 下载文件接口
     def download(self, request):
         dirPath = request.data.get('dirPath')
-        print(8888)
         fileName = request.data.get('fileName')
-        print(999)
         filePath = dirPath + "/" + fileName
-        print(000)
         response = StreamingHttpResponse(self.read_file(filePath))
-        print(response)
         response['Content-Type'] = 'application/octet-stream'
-        print(111)
         response['Content-Disposition'] = 'attachment;filename="{0}"'.format(fileName)
         response['Access-Control-Expose-Headers'] = "Content-Disposition"
-        print(222)
         print(response)
         return response
 
@@ -288,7 +280,7 @@ class SippScript(APIView):
         # dirPath = request.data.get("dirPath", '')
         dirPath = "admin"
         print(request.data)
-        rootPath = "./Script/" + dirPath
+        rootPath = "./Script"
         from .serialize import list_dir
         # 递归查询函数，返回一个字典类型数据
         pathTree = list_dir(rootPath)

@@ -28,7 +28,7 @@ class mymiddleware(MiddlewareMixin):
             except Exception as e:
                 ret = {'code': 1004, 'error': "请重新登陆！"}
                 print(e)
-                return JsonResponse(ret)
+                return JsonResponse(ret, json_dumps_params={'ensure_ascii': False})
 
     def process_response(self, request, response):
         print(11111111)

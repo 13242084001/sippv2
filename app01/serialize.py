@@ -26,7 +26,8 @@ def list_dir(rootPath):
     dir_tmp = os.listdir(rootPath)
     for i in dir_tmp:
         if os.path.isfile(rootPath + "/" + i):
-            res["tags"] += 1
+            if i.split(".")[-1] in ["xml", "pcap", "csv"]:
+                res["tags"] += 1
         else:
 
             """if mainpath == rootPath.split("/")[-1]:
